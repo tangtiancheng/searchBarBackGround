@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796AF3871E0A252D003D5964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF3861E0A252D003D5964 /* main.m */; };
+		796AF38A1E0A252D003D5964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF3891E0A252D003D5964 /* AppDelegate.m */; };
+		796AF38D1E0A252D003D5964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF38C1E0A252D003D5964 /* ViewController.m */; };
+		796AF3901E0A252D003D5964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796AF38E1E0A252D003D5964 /* Main.storyboard */; };
+		796AF3921E0A252D003D5964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796AF3911E0A252D003D5964 /* Assets.xcassets */; };
+		796AF3951E0A252D003D5964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796AF3931E0A252D003D5964 /* LaunchScreen.storyboard */; };
+		796AF3A01E0A252D003D5964 /* searchBar______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF39F1E0A252D003D5964 /* searchBar______Tests.m */; };
+		796AF3AB1E0A252D003D5964 /* searchBar______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF3AA1E0A252D003D5964 /* searchBar______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796AF39C1E0A252D003D5964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796AF37A1E0A252D003D5964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796AF3811E0A252D003D5964;
+			remoteInfo = "searchBar修改背景颜色";
+		};
+		796AF3A71E0A252D003D5964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796AF37A1E0A252D003D5964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796AF3811E0A252D003D5964;
+			remoteInfo = "searchBar修改背景颜色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796AF3821E0A252D003D5964 /* searchBar修改背景颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "searchBar修改背景颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796AF3861E0A252D003D5964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796AF3881E0A252D003D5964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		796AF3891E0A252D003D5964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		796AF38B1E0A252D003D5964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		796AF38C1E0A252D003D5964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		796AF38F1E0A252D003D5964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796AF3911E0A252D003D5964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796AF3941E0A252D003D5964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796AF3961E0A252D003D5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796AF39B1E0A252D003D5964 /* searchBar修改背景颜色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "searchBar修改背景颜色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796AF39F1E0A252D003D5964 /* searchBar______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "searchBar______Tests.m"; sourceTree = "<group>"; };
+		796AF3A11E0A252D003D5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796AF3A61E0A252D003D5964 /* searchBar修改背景颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "searchBar修改背景颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796AF3AA1E0A252D003D5964 /* searchBar______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "searchBar______UITests.m"; sourceTree = "<group>"; };
+		796AF3AC1E0A252D003D5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796AF37F1E0A252D003D5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3981E0A252D003D5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3A31E0A252D003D5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796AF3791E0A252D003D5964 = {
+			isa = PBXGroup;
+			children = (
+				796AF3841E0A252D003D5964 /* searchBar修改背景颜色 */,
+				796AF39E1E0A252D003D5964 /* searchBar修改背景颜色Tests */,
+				796AF3A91E0A252D003D5964 /* searchBar修改背景颜色UITests */,
+				796AF3831E0A252D003D5964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796AF3831E0A252D003D5964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796AF3821E0A252D003D5964 /* searchBar修改背景颜色.app */,
+				796AF39B1E0A252D003D5964 /* searchBar修改背景颜色Tests.xctest */,
+				796AF3A61E0A252D003D5964 /* searchBar修改背景颜色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796AF3841E0A252D003D5964 /* searchBar修改背景颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				796AF3881E0A252D003D5964 /* AppDelegate.h */,
+				796AF3891E0A252D003D5964 /* AppDelegate.m */,
+				796AF38B1E0A252D003D5964 /* ViewController.h */,
+				796AF38C1E0A252D003D5964 /* ViewController.m */,
+				796AF38E1E0A252D003D5964 /* Main.storyboard */,
+				796AF3911E0A252D003D5964 /* Assets.xcassets */,
+				796AF3931E0A252D003D5964 /* LaunchScreen.storyboard */,
+				796AF3961E0A252D003D5964 /* Info.plist */,
+				796AF3851E0A252D003D5964 /* Supporting Files */,
+			);
+			path = "searchBar修改背景颜色";
+			sourceTree = "<group>";
+		};
+		796AF3851E0A252D003D5964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				796AF3861E0A252D003D5964 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		796AF39E1E0A252D003D5964 /* searchBar修改背景颜色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				796AF39F1E0A252D003D5964 /* searchBar______Tests.m */,
+				796AF3A11E0A252D003D5964 /* Info.plist */,
+			);
+			path = "searchBar修改背景颜色Tests";
+			sourceTree = "<group>";
+		};
+		796AF3A91E0A252D003D5964 /* searchBar修改背景颜色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				796AF3AA1E0A252D003D5964 /* searchBar______UITests.m */,
+				796AF3AC1E0A252D003D5964 /* Info.plist */,
+			);
+			path = "searchBar修改背景颜色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796AF3811E0A252D003D5964 /* searchBar修改背景颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796AF3AF1E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色" */;
+			buildPhases = (
+				796AF37E1E0A252D003D5964 /* Sources */,
+				796AF37F1E0A252D003D5964 /* Frameworks */,
+				796AF3801E0A252D003D5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "searchBar修改背景颜色";
+			productName = "searchBar修改背景颜色";
+			productReference = 796AF3821E0A252D003D5964 /* searchBar修改背景颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796AF39A1E0A252D003D5964 /* searchBar修改背景颜色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796AF3B21E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色Tests" */;
+			buildPhases = (
+				796AF3971E0A252D003D5964 /* Sources */,
+				796AF3981E0A252D003D5964 /* Frameworks */,
+				796AF3991E0A252D003D5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796AF39D1E0A252D003D5964 /* PBXTargetDependency */,
+			);
+			name = "searchBar修改背景颜色Tests";
+			productName = "searchBar修改背景颜色Tests";
+			productReference = 796AF39B1E0A252D003D5964 /* searchBar修改背景颜色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796AF3A51E0A252D003D5964 /* searchBar修改背景颜色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796AF3B51E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色UITests" */;
+			buildPhases = (
+				796AF3A21E0A252D003D5964 /* Sources */,
+				796AF3A31E0A252D003D5964 /* Frameworks */,
+				796AF3A41E0A252D003D5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796AF3A81E0A252D003D5964 /* PBXTargetDependency */,
+			);
+			name = "searchBar修改背景颜色UITests";
+			productName = "searchBar修改背景颜色UITests";
+			productReference = 796AF3A61E0A252D003D5964 /* searchBar修改背景颜色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796AF37A1E0A252D003D5964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "唐天成";
+				TargetAttributes = {
+					796AF3811E0A252D003D5964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HPWPREC665;
+						ProvisioningStyle = Automatic;
+					};
+					796AF39A1E0A252D003D5964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HPWPREC665;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 796AF3811E0A252D003D5964;
+					};
+					796AF3A51E0A252D003D5964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HPWPREC665;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 796AF3811E0A252D003D5964;
+					};
+				};
+			};
+			buildConfigurationList = 796AF37D1E0A252D003D5964 /* Build configuration list for PBXProject "searchBar修改背景颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796AF3791E0A252D003D5964;
+			productRefGroup = 796AF3831E0A252D003D5964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796AF3811E0A252D003D5964 /* searchBar修改背景颜色 */,
+				796AF39A1E0A252D003D5964 /* searchBar修改背景颜色Tests */,
+				796AF3A51E0A252D003D5964 /* searchBar修改背景颜色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796AF3801E0A252D003D5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796AF3951E0A252D003D5964 /* LaunchScreen.storyboard in Resources */,
+				796AF3921E0A252D003D5964 /* Assets.xcassets in Resources */,
+				796AF3901E0A252D003D5964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3991E0A252D003D5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3A41E0A252D003D5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796AF37E1E0A252D003D5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796AF38D1E0A252D003D5964 /* ViewController.m in Sources */,
+				796AF38A1E0A252D003D5964 /* AppDelegate.m in Sources */,
+				796AF3871E0A252D003D5964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3971E0A252D003D5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796AF3A01E0A252D003D5964 /* searchBar______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796AF3A21E0A252D003D5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796AF3AB1E0A252D003D5964 /* searchBar______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796AF39D1E0A252D003D5964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796AF3811E0A252D003D5964 /* searchBar修改背景颜色 */;
+			targetProxy = 796AF39C1E0A252D003D5964 /* PBXContainerItemProxy */;
+		};
+		796AF3A81E0A252D003D5964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796AF3811E0A252D003D5964 /* searchBar修改背景颜色 */;
+			targetProxy = 796AF3A71E0A252D003D5964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		796AF38E1E0A252D003D5964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796AF38F1E0A252D003D5964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796AF3931E0A252D003D5964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796AF3941E0A252D003D5964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796AF3AD1E0A252D003D5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		796AF3AE1E0A252D003D5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796AF3B01E0A252D003D5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		796AF3B11E0A252D003D5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		796AF3B31E0A252D003D5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchBar修改背景颜色.app/searchBar修改背景颜色";
+			};
+			name = Debug;
+		};
+		796AF3B41E0A252D003D5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchBar修改背景颜色.app/searchBar修改背景颜色";
+			};
+			name = Release;
+		};
+		796AF3B61E0A252D003D5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "searchBar修改背景颜色";
+			};
+			name = Debug;
+		};
+		796AF3B71E0A252D003D5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HPWPREC665;
+				INFOPLIST_FILE = "searchBar修改背景颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dopstore.mall.searchBar------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "searchBar修改背景颜色";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796AF37D1E0A252D003D5964 /* Build configuration list for PBXProject "searchBar修改背景颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796AF3AD1E0A252D003D5964 /* Debug */,
+				796AF3AE1E0A252D003D5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796AF3AF1E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796AF3B01E0A252D003D5964 /* Debug */,
+				796AF3B11E0A252D003D5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796AF3B21E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796AF3B31E0A252D003D5964 /* Debug */,
+				796AF3B41E0A252D003D5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796AF3B51E0A252D003D5964 /* Build configuration list for PBXNativeTarget "searchBar修改背景颜色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796AF3B61E0A252D003D5964 /* Debug */,
+				796AF3B71E0A252D003D5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796AF37A1E0A252D003D5964 /* Project object */;
+}
